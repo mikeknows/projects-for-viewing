@@ -6,7 +6,7 @@ import java.util.List;
 
 public class Lab8aSolution {
 
-    class ThreadedSort<T extends Comparable> extends Thread {
+    class ThreadedListSort<T extends Comparable> extends Thread {
 
         private final List<T> list;
 
